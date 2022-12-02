@@ -1,0 +1,991 @@
+/*================ Normal desktop :992px.==================== */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+	.mainmenu ul li a {
+		padding: 20px 15px
+	}
+	.search-btn {
+		padding: 20px 10px
+	}
+	.header-action a {
+		padding: 5px 0 5px 5px
+	}
+	.info-text h4 {
+		font-size: 16px
+	}
+	.felona-request-area img {
+		width: 400px;
+		right: 60px
+	}
+	.quick-contact {
+		padding: 10px
+	}
+	.page-banner {
+		padding: 20px
+	}
+    .attachment-action a{
+        padding: 15px
+    }
+}
+
+
+/*================ Tablet desktop :768px.==================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.header-widget-box {
+		display: none
+	}
+	.mainmenu-area {
+		display: none
+	}
+	.felona-responsive-menu {
+		display: block
+	}
+	.felona-slider-area {
+		margin-top: 0
+	}
+	.header-logo-area {
+		padding: 15px 0
+	}
+	.site-logo img {
+		width: 25%;
+		position: relative;
+		z-index: 9999
+	}
+	.felona-main-slide {
+		height: 460px
+	}
+	.slider-text {
+		text-align: center;
+		width: 90%;
+		margin: 0 auto
+	}
+	.slider-text h2,
+	.slider-text h2 span {
+		font-size: 40px;
+		line-height: 45px
+	}
+	.slider-text p {
+		width: 100%
+	}
+	.text_bg {
+		font-size: 60px
+	}
+	.about-heading-right h3 {
+		font-size: 30px
+	}
+	.about-right {
+		margin-top: 30px;
+		display: none
+	}
+	.about-right .about-img:nth-child(1),
+	.about-right .about-img {
+		position: relative;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		width: 75%;
+		margin: 0 auto;
+		display: block;
+	}
+	.about-right .about-img {
+		margin-top: 30px
+	}
+	.counter-box {
+		margin-top: 30px
+	}
+	.felona-counter-area {
+		padding: 70px 0
+	}
+	.site-heading {
+		text-align: center;
+		width: 75%;
+		margin: 0 auto 30px;
+	}
+	.site-heading h2 {
+		font-size: 25px
+	}
+	.load-more-action {
+		margin-top: 0px;
+		text-align: center
+	}
+	.single-service {
+		margin: 30px auto 0;
+		width: 75%
+	}
+	.felona-request-area img {
+		position: absolute;
+		right: 10px;
+		bottom: 0;
+		width: 45%;
+	}
+	.request-left {
+		padding: 20px
+	}
+	.request-left h3 {
+		font-size: 25px
+	}
+	.request-left form {
+		margin-top: 10px
+	}
+	.portfolio-filter {
+		margin-top: 0;
+		text-align: center
+	}
+	.felona-promo-area {
+		padding: 50px 0
+	}
+	.blog-item {
+		width: 75%;
+		margin: 30px auto 0
+	}
+	.single-footer {
+		margin: 20px 0
+	}
+	.promo-box-left h3 {
+		font-size: 25px;
+		line-height: 38px
+	}
+	.promo-box-right a.felona-btn-border,
+	.promo-box-right a.felona-btn-border:hover {
+		padding: 12px 10px
+	}
+	.promo-box-right {
+		margin: 12px 0
+	}
+	.site-heading h2 {
+		line-height: 38px
+	}
+	.flicker li {
+		width: 21%
+	}
+	.felona-breadcromb-area {
+		padding: 50px 0;
+		margin: 0
+	}
+	.about-page-left {
+		width: 75%;
+		margin: 0 auto
+	}
+	.about-page-right {
+		width: 75%;
+		margin: 30px auto 0;
+	}
+	.about-page-right h2 {
+		font-size: 27px;
+		line-height: 35px
+	}
+	.choose-left {
+		width: 75%;
+		margin: 0 auto;
+	}
+	.choose-right {
+		width: 75%;
+		margin: 30px auto 0;
+	}
+	.toll-box h3 {
+		font-size: 30px;
+		line-height: 40px
+	}
+	.toll-box {
+		width: 100%
+	}
+	.career-right {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.career-left {
+		width: 80%;
+		margin: 30px auto 0;
+	}
+	.faqs-page-top {
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+	.faqs-page-top>h2 {
+		font-size: 25px
+	}
+	.faqs-page-left {
+		width: 75%;
+		margin: 0 auto;
+	}
+	.faq_accordian_header>a {
+		font-size: 17px
+	}
+	.faqs-page-right {
+		width: 75%;
+		margin: 30px auto 0;
+	}
+	.notfound-box h1 {
+		font-size: 70px;
+		line-height: 70px;
+		margin-bottom: 20px
+	}
+	.felona-notfound-page-area {
+		padding: 70px 0
+	}
+	.breadcromb-box h3 {
+		font-size: 35px
+	}
+	.service-details-left {
+		width: 75%;
+		margin: 0 auto;
+	}
+	.service-details-right {
+		width: 75%;
+		margin: 30px auto 0;
+	}
+	.single-service-text h2 {
+		font-size: 25px
+	}
+	.about-service-left {
+		width: 100%;
+		float: none;
+	}
+	.about-service-right {
+		margin-top: 30px;
+	}
+	.project-details-left h2 {
+		font-size: 25px
+	}
+	.project-info ul li {
+		float: left;
+		width: 48%;
+		margin-bottom: 0;
+		margin-top: 20px
+	}
+	.project-info ul li span {
+		font-size: 18px
+	}
+	.felona-related-project .work-item.work-image {
+		width: 75%;
+		margin: 30px auto 0
+	}
+	.felona-related-project {
+		padding-bottom: 70px
+	}
+	.pagination-box-row {
+		width: 75%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.blog-sidebar {
+		width: 75%;
+		margin: 50px auto 0;
+	}
+	.felona-blog-page-area.single-blog-page .blog-page-left {
+		width: 75%;
+		margin: 0 auto
+	}
+	.contact-form {
+		width: 75%;
+		margin: 0 auto
+	}
+	.contact-form form .col-lg-6:first-child {
+		padding-right: 15px
+	}
+	.contact-form form .col-lg-6:last-child {
+		padding-left: 15px
+	}
+	.contact-info {
+		width: 75%;
+		margin: 30px auto 0;
+	}
+	.contact-form h3,
+	.contact-info h3 {
+		font-size: 25px
+	}
+	.contact-info.inner-contact-info {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+
+/*================== small mobile :320px. ===================*/
+
+@media (max-width: 767px) {
+	.header-top-left {
+		display: none
+	}
+	.header-top-right ul {
+		text-align: center
+	}
+	.header-widget-box {
+		display: none
+	}
+	.mainmenu-area {
+		display: none
+	}
+	.felona-responsive-menu {
+		display: block
+	}
+	.felona-slider-area {
+		margin-top: 0
+	}
+	.header-logo-area {
+		padding: 15px 0
+	}
+	.site-logo img {
+		width: 45%;
+	}
+	.site-logo {
+		margin: 10px 0
+	}
+	.felona-main-slide {
+		height: 300px
+	}
+	.slider-text {
+		width: 85%;
+		text-align: center;
+		margin: 0 auto
+	}
+	.slider-text h2,
+	.slider-text h2 span {
+		font-size: 25px;
+		line-height: 35px
+	}
+	.slider-text p {
+		display: none
+	}
+	.slider-text a.felona-btn {
+		margin-top: 10px
+	}
+	.about-left {
+		text-align: center
+	}
+	.text_bg {
+		font-size: 45px
+	}
+	.about-heading-right h3 {
+		font-size: 25px;
+		margin-top: 10px
+	}
+	.about-right .about-img {
+		margin-top: 30px
+	}
+	.about-right .about-img:nth-child(1) {
+		position: relative;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		width: 100%;
+	}
+	.counter-box-heading h3 {
+		font-size: 18px
+	}
+	.counter-box-heading h2 {
+		font-size: 28px
+	}
+	.counter-box {
+		margin-top: 30px
+	}
+	.felona-counter-area {
+		padding: 70px 0
+	}
+	.counter-box h3 {
+		font-size: 30px
+	}
+	.site-heading {
+		text-align: center
+	}
+	.site-heading h2,
+	.request-left h3 {
+		font-size: 25px
+	}
+	.load-more-action {
+		text-align: center;
+		margin-top: 0;
+	}
+	.felona-request-area img {
+		display: none
+	}
+	.felona-request-area::before {
+		width: 100%
+	}
+	.felona-request-area::after {
+		width: 100%
+	}
+	.request-inner {
+		width: 100%;
+		padding: 70px 0
+	}
+	.request-left {
+		padding: 30px;
+		text-align: center
+	}
+	.request-left form .col-md-6:first-child {
+		padding-right: 15px
+	}
+	.request-left form .col-md-6:last-child {
+		padding-left: 15px
+	}
+	.portfolio-filter {
+		margin-top: 0;
+		text-align: center
+	}
+	.portfolio-filter li {
+		display: block
+	}
+	.portfolio-filter li::after {
+		display: none
+	}
+	.felona-promo-area::before {
+		display: none
+	}
+	.felona-promo-area {
+		padding: 70px 0
+	}
+	.promo-box-left {
+		text-align: center
+	}
+	.promo-box-left h3 {
+		font-size: 30px
+	}
+	.promo-box-right {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.felona-testimonial-area .site-heading {
+		width: 100%
+	}
+	.site-heading h2 {
+		line-height: 40px
+	}
+	.single-testimonial {
+		display: block
+	}
+	.testimonial-text {
+		width: 100%;
+		text-align: center
+	}
+	.testimonial-img {
+		width: 70px;
+		height: 70px;
+		display: block;
+		margin: 10px auto 0;
+	}
+	.single-footer {
+		margin: 15px 0
+	}
+	.flicker li {
+		width: 23%
+	}
+	.copyright-left {
+		text-align: center;
+		margin-bottom: 15px
+	}
+	.copyright-right {
+		text-align: center
+	}
+	.felona-breadcromb-area {
+		padding: 50px 0;
+		margin-top: 0
+	}
+	.breadcromb-box h3 {
+		font-size: 25px
+	}
+	.about-page-right {
+		margin-top: 30px;
+	}
+	.about-page-right h2 {
+		font-size: 25px
+	}
+	.about-page-right h3 {
+		font-size: 17px;
+		line-height: 26px
+	}
+	.about-page-right-listing>ul {
+		width: 100%;
+		float: none
+	}
+	.choose-left h2 {
+		font-size: 25px;
+		line-height: 35px
+	}
+	.choose-right {
+		margin-top: 30px
+	}
+	.toll-box {
+		width: 100%
+	}
+	.toll-box h3 {
+		font-size: 30px
+	}
+	.page-banner>h3 {
+		font-size: 23px
+	}
+	.career-left {
+		margin-top: 30px
+	}
+	.top-company-list {
+		display: block;
+		text-align: center
+	}
+	.career-list-single {
+		padding: 20px
+	}
+	.company-list-details p {
+		display: block;
+		margin: 5px 0;
+	}
+	.company-list-btn {
+		margin-top: 20px
+	}
+	.faqs-page-top {
+		width: 100%
+	}
+	.faqs-top-search-form form {
+		width: 100%
+	}
+	.faqs-page-top>h2 {
+		font-size: 25px
+	}
+	.faq_accordian_header>a {
+		font-size: 16px;
+		white-space: normal
+	}
+	.faqs-page-right {
+		margin-top: 30px
+	}
+	.notfound-box h1 {
+		font-size: 70px;
+		line-height: 60px;
+		margin-bottom: 20px
+	}
+	.felona-notfound-page-area {
+		padding: 70px 0
+	}
+	.notfound-box p {
+		font-size: 16px
+	}
+	.service-details-right {
+		margin-top: 30px
+	}
+	.single-service-text h2 {
+		font-size: 25px
+	}
+	.about-service-left {
+		float: none;
+		width: 100%;
+		margin: 0
+	}
+	.about-service-right {
+		margin-top: 30px
+	}
+	.about-service-right ul {
+		width: 100%;
+		float: none
+	}
+	.service-get-form form .col-lg-6:first-child {
+		padding-right: 15px
+	}
+	.single-project-image-bg {
+		margin-top: 30px
+	}
+	.no-pad-left {
+		padding-left: 15px
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.project-details-left h2 {
+		font-size: 25px
+	}
+	.project-details-left ul {
+		float: none;
+		width: 100%;
+		margin-right: 0
+	}
+	.project-info ul li span {
+		font-size: 17px
+	}
+	.felona-related-project .load-more-action {
+		margin-bottom: 30px
+	}
+	.blog-page-left .blog-desc h3 {
+		font-size: 20px
+	}
+	.blog-sidebar {
+		margin-top: 50px
+	}
+	.post-share-left {
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.post-share-right {
+		text-align: center
+	}
+	.comment-group-title>h3 {
+		font-size: 23px
+	}
+	.comment-info h4 {
+		font-size: 17px
+	}
+	.single-comment-box.reply-comment {
+		padding-left: 30px
+	}
+	.felona-leave-comment form .col-lg-6:first-child {
+		padding-right: 15px
+	}
+	.contact-form form .col-lg-6:first-child {
+		padding-right: 15px
+	}
+	.contact-form form .col-lg-6:last-child {
+		padding-left: 15px
+	}
+	.contact-info {
+		margin-top: 30px
+	}
+	.contact-form h3,
+	.contact-info h3 {
+		font-size: 25px
+	}
+}
+
+
+/* ======================Large Mobile :480px.================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-top-left {
+		display: none
+	}
+	.header-top-right ul {
+		text-align: center
+	}
+	.header-widget-box {
+		display: none
+	}
+	.mainmenu-area {
+		display: none
+	}
+	.felona-responsive-menu {
+		display: block;
+		margin-top: 7px
+	}
+	.felona-slider-area {
+		margin-top: 0
+	}
+	.header-logo-area {
+		padding: 15px 0
+	}
+	.site-logo img {
+		width: 40%;
+	}
+	.site-logo {
+		margin: 10px 0
+	}
+	.felona-main-slide {
+		height: 300px
+	}
+	.slider-text {
+		width: 85%;
+		text-align: center;
+		margin: 0 auto
+	}
+	.slider-text h2,
+	.slider-text h2 span {
+		font-size: 32px;
+		line-height: 40px
+	}
+	.slider-text p {
+		display: none
+	}
+	.slider-text a.felona-btn {
+		margin-top: 10px
+	}
+	.about-left {
+		text-align: center
+	}
+	.text_bg {
+		font-size: 45px
+	}
+	.about-heading-right h3 {
+		font-size: 25px;
+		margin-top: 10px
+	}
+	.about-right .about-img {
+		margin-top: 30px
+	}
+	.about-right .about-img:nth-child(1) {
+		position: relative;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		width: 100%;
+	}
+	.counter-box-heading h3 {
+		font-size: 18px
+	}
+	.counter-box-heading h2 {
+		font-size: 28px
+	}
+	.counter-box {
+		margin-top: 30px
+	}
+	.felona-counter-area {
+		padding: 70px 0
+	}
+	.counter-box h3 {
+		font-size: 30px
+	}
+	.site-heading {
+		text-align: center
+	}
+	.site-heading h2,
+	.request-left h3 {
+		font-size: 25px
+	}
+	.load-more-action {
+		text-align: center;
+		margin-top: 0;
+	}
+	.felona-request-area img {
+		display: none
+	}
+	.felona-request-area::before {
+		width: 100%
+	}
+	.felona-request-area::after {
+		width: 100%
+	}
+	.request-inner {
+		width: 100%;
+		padding: 70px 0
+	}
+	.request-left {
+		padding: 30px;
+		text-align: center
+	}
+	.request-left form .col-md-6:first-child {
+		padding-right: 15px
+	}
+	.request-left form .col-md-6:last-child {
+		padding-left: 15px
+	}
+	.portfolio-filter {
+		margin-top: 0;
+		text-align: center
+	}
+	.portfolio-filter li {
+		display: block
+	}
+	.portfolio-filter li::after {
+		display: none
+	}
+	.felona-promo-area::before {
+		display: none
+	}
+	.felona-promo-area {
+		padding: 70px 0
+	}
+	.promo-box-left {
+		text-align: center
+	}
+	.promo-box-left h3 {
+		font-size: 30px
+	}
+	.promo-box-right {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.felona-testimonial-area .site-heading {
+		width: 100%
+	}
+	.site-heading h2 {
+		line-height: 40px
+	}
+	.single-testimonial {
+		display: block
+	}
+	.testimonial-text {
+		width: 100%;
+		text-align: center
+	}
+	.testimonial-img {
+		width: 70px;
+		height: 70px;
+		display: block;
+		margin: 10px auto 0;
+	}
+	.single-footer {
+		margin: 15px 0
+	}
+	.flicker li {
+		width: 15%
+	}
+	.copyright-left {
+		text-align: center;
+		margin-bottom: 15px
+	}
+	.copyright-right {
+		text-align: center
+	}
+	.felona-breadcromb-area {
+		padding: 50px 0;
+		margin-top: 0
+	}
+	.breadcromb-box h3 {
+		font-size: 25px
+	}
+	.about-page-right {
+		margin-top: 30px;
+	}
+	.about-page-right h2 {
+		font-size: 25px
+	}
+	.about-page-right h3 {
+		font-size: 17px;
+		line-height: 26px
+	}
+	.about-page-right-listing>ul {
+		width: 100%;
+		float: none
+	}
+	.choose-left h2 {
+		font-size: 25px;
+		line-height: 35px
+	}
+	.choose-right {
+		margin-top: 30px
+	}
+	.toll-box {
+		width: 100%
+	}
+	.toll-box h3 {
+		font-size: 30px
+	}
+	.page-banner>h3 {
+		font-size: 23px
+	}
+	.career-left {
+		margin-top: 30px
+	}
+	.top-company-list {
+		display: block;
+		text-align: center
+	}
+	.career-list-single {
+		padding: 20px
+	}
+	.company-list-details p {
+		display: block;
+		margin: 5px 0;
+	}
+	.company-list-btn {
+		margin-top: 20px
+	}
+	.faqs-page-top {
+		width: 100%
+	}
+	.faqs-top-search-form form {
+		width: 100%
+	}
+	.faqs-page-top>h2 {
+		font-size: 25px
+	}
+	.faq_accordian_header>a {
+		font-size: 16px;
+		white-space: normal
+	}
+	.faqs-page-right {
+		margin-top: 30px
+	}
+	.notfound-box h1 {
+		font-size: 70px;
+		line-height: 60px;
+		margin-bottom: 20px
+	}
+	.felona-notfound-page-area {
+		padding: 70px 0
+	}
+	.notfound-box p {
+		font-size: 16px
+	}
+	.service-details-right {
+		margin-top: 30px
+	}
+	.single-service-text h2 {
+		font-size: 25px
+	}
+	.about-service-left {
+		float: none;
+		width: 100%;
+		margin: 0
+	}
+	.about-service-right {
+		margin-top: 30px
+	}
+	.about-service-right ul {
+		width: 100%;
+		float: none
+	}
+	.service-get-form form .col-lg-6:first-child {
+		padding-right: 15px
+	}
+	.single-project-image-bg {
+		margin-top: 30px
+	}
+	.no-pad-left {
+		padding-left: 15px
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.project-details-left h2 {
+		font-size: 25px
+	}
+	.project-details-left ul {
+		float: none;
+		width: 100%;
+		margin-right: 0
+	}
+	.project-info ul li span {
+		font-size: 17px
+	}
+	.felona-related-project .load-more-action {
+		margin-bottom: 30px
+	}
+	.blog-page-left .blog-desc h3 {
+		font-size: 20px
+	}
+	.blog-sidebar {
+		margin-top: 50px
+	}
+	.post-share-left {
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.post-share-right {
+		text-align: center
+	}
+	.comment-group-title>h3 {
+		font-size: 23px
+	}
+	.comment-info h4 {
+		font-size: 17px
+	}
+	.single-comment-box.reply-comment {
+		padding-left: 30px
+	}
+	.felona-leave-comment form .col-lg-6:first-child {
+		padding-right: 15px
+	}
+	.contact-form form .col-lg-6:first-child {
+		padding-right: 15px
+	}
+	.contact-form form .col-lg-6:last-child {
+		padding-left: 15px
+	}
+	.contact-info {
+		margin-top: 30px
+	}
+	.contact-form h3,
+	.contact-info h3 {
+		font-size: 25px
+	}
+}
+
