@@ -216,30 +216,30 @@ li {
 	font-weight: 600;
 	font-size: 14px;
 	padding: 12px 35px;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	letter-spacing: 1px;
 }
 
 .felona-btn:hover {
 	background: #fff none repeat scroll 0 0;
-	color: #ff6d34
+	color: #ee1b22
 }
 
 .felona-btn-border {
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
-	color: #ff6d34;
+	color: #ee1b22;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	font-size: 14px;
 	padding: 8px 35px;
-	border: 2px solid #ff6d34;
+	border: 2px solid #ee1b22;
 	letter-spacing: 1px;
 }
 
 .felona-btn-border:hover {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	color: #fff
 }
 
@@ -252,7 +252,7 @@ li {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #ff6d34;
+	color: #ee1b22;
 }
 
 .site-heading h2 {
@@ -454,7 +454,7 @@ li {
 
 .pagination li.active a,
 .pagination li a:hover {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	color: #fff
 }
 
@@ -509,7 +509,7 @@ li {
 }
 
 .breadcromb-box li i {
-	color: #ff6d34
+	color: #ee1b22
 }
 
 
@@ -526,8 +526,8 @@ li {
 }
 
 .btntoTop {
-	background-color: #ff6d34;
-	border: 2px solid #ff6d34;
+	background-color: #ee1b22;
+	border: 2px solid #ee1b22;
 	border-radius: 5px;
 	bottom: 70px;
 	cursor: pointer;
@@ -553,7 +553,7 @@ li {
 
 .btntoTop.active:hover {
 	background: #212121 none repeat scroll 0 0;
-	border: 2px solid #ff6d34;
+	border: 2px solid #ee1b22;
 	opacity: 0.8;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
@@ -584,7 +584,7 @@ li {
 	height: 100%;
 	left: -2432px;
 	width: 2800px;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	z-index: -1;
 }
 
@@ -618,7 +618,7 @@ li {
 }
 
 .header-logo-area {
-	padding: 35px 0;
+	padding: 18px 0;
 }
 
 .site-logo {
@@ -658,7 +658,7 @@ li {
 	border-radius: 50%;
 	margin-right: 10px;
 	font-size: 24px;
-	color: #ff6d34;
+	color: #ee1b22;
 	position: relative
 }
 
@@ -739,7 +739,7 @@ li {
 	width: 180px;
 	top: 120%;
 	background: #fff none repeat scroll 0 0;
-	border-top: 3px solid #ff6d34;
+	border-top: 3px solid #ee1b22;
 	left: 0;
 	visibility: hidden;
 	opacity: 0;
@@ -786,7 +786,7 @@ li {
 
 .mainmenu ul li a:hover,
 .mainmenu ul li.active>a {
-	color: #ff6d34
+	color: #ee1b22
 }
 
 .search-close {
@@ -795,7 +795,7 @@ li {
 	right: 26%;
 	font-size: 25px;
 	display: block;
-	color: #ff6d34;
+	color: #ee1b22;
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	cursor: pointer
@@ -856,7 +856,7 @@ li {
 	background: #fff none repeat scroll 0 0;
 	cursor: pointer;
 	font-size: 17px;
-	color: #ff6d34
+	color: #ee1b22
 }
 
 .search-box.search-elem label.placeholder.move-up {
@@ -881,7 +881,7 @@ li {
 }
 
 .search-btn:hover {
-	color: #ff6d34;
+	color: #ee1b22;
 }
 
 .mainmenu-right {
@@ -890,6 +890,7 @@ li {
 	float: right;
 	text-align: right;
 	padding-right: 15px;
+	height: 100%;
 }
 
 .header-search {
@@ -905,7 +906,7 @@ li {
 .header-action a {
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;
-	color: #ff6d34;
+	color: #ee1b22;
 	font-size: 16px;
 	font-weight: 600;
 	padding: 5px 0 5px 20px;
@@ -995,7 +996,6 @@ li {
 	letter-spacing: 1px;
 	font-family: 'Ubuntu', sans-serif;
 	width: 85%;
-	text-transform: capitalize;
 }
 
 .slider-text a.felona-btn {
@@ -1108,8 +1108,8 @@ li {
 }
 
 .about-action a:hover {
-	color: #ff6d34;
-	border-left: 1px solid #ff6d34;
+	color: #ee1b22;
+	border-left: 1px solid #ee1b22;
 }
 
 .about-action a:hover i {
@@ -1134,7 +1134,7 @@ li {
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background-color: #ff6d34;
+	background-color: #ee1b22;
 	left: 0;
 	border-radius: 4px;
 	-webkit-transform: scale(0);
@@ -1188,29 +1188,13 @@ li {
 	box-shadow: 0 0 40px rgba(82, 85, 90, 0.1);
 }
 
-.about-right .about-img:nth-child(1) {
-	position: absolute;
-	bottom: -206px;
-	left: -75px;
-	z-index: 1;
-	width: 90%;
-}
-
-.about-right .about-img:nth-child(3) {
-	position: absolute;
-	bottom: -270px;
-	right: 15px;
-	width: 65%;
-	z-index: 2;
-}
-
 
 /*================================================
 10 - COUNTER AREA CSS
 ==================================================*/
 
 .felona-counter-area {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	position: relative;
 	z-index: 1
 }
@@ -1257,7 +1241,7 @@ li {
 }
 
 .counter-box h3 {
-	color: #ff6d34;
+	color: #ee1b22;
 	font-weight: 600;
 	font-size: 40px;
 	font-family: 'Ubuntu', sans-serif;
@@ -1297,7 +1281,6 @@ li {
 .service-desc h3 {
 	color: #111;
 	font-size: 22px;
-	text-transform: capitalize;
 	line-height: 25px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
@@ -1309,7 +1292,7 @@ li {
 }
 
 .service-desc h3 a:hover {
-	color: #ff6d34
+	color: #ee1b22
 }
 
 .service-box-action a.felona-btn-border {
@@ -1324,10 +1307,10 @@ li {
 .load-more-action a {
 	text-transform: capitalize;
 	font-family: 'Poppins', sans-serif;
-	color: #ff6d34;
+	color: #ee1b22;
 	font-weight: 500;
 	padding: 5px 0 5px 20px;
-	border-left: 1px solid #ff6d34;
+	border-left: 1px solid #ee1b22;
 	display: inline-block;
 }
 
@@ -1389,7 +1372,7 @@ li {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
-	color: #ff6d34;
+	color: #ee1b22;
 	font-weight: 500;
 }
 
@@ -1467,7 +1450,7 @@ li {
 .request-left form p button {
 	width: 100%;
 	padding: 15px 20px;
-	background: #ff6d34;
+	background: #ee1b22;
 	border: medium none;
 	color: #fff;
 	cursor: pointer;
@@ -1501,7 +1484,7 @@ li {
 .portfolio-filter li {
 	text-transform: capitalize;
 	font-family: 'Poppins', sans-serif;
-	color: #ff6d34;
+	color: #ee1b22;
 	font-weight: 500;
 	padding: 5px 15px;
 	display: inline-block;
@@ -1586,7 +1569,7 @@ li {
 }
 
 .work-item .content>p {
-	border-bottom: 2px solid #ff6d34;
+	border-bottom: 2px solid #ee1b22;
 	font-family: 'Ubuntu', sans-serif;
 	color: #162337;
 	display: inline-block;
@@ -1637,7 +1620,7 @@ li {
 }
 
 .felona-promo-area:before {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	display: block;
 	height: 100%;
 	left: -20%;
@@ -1680,15 +1663,15 @@ li {
 }
 
 .promo-box-right a.felona-btn-border:hover {
-	border: 2px solid #ff6d34;
+	border: 2px solid #ee1b22;
 	color: #fff;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	padding: 12px 35px;
 }
 
 .promo-box-right a.felona-btn-border {
 	border: 2px solid #fff;
-	color: #ff6d34;
+	color: #ee1b22;
 	background: #fff none repeat scroll 0 0;
 	padding: 12px 35px;
 }
@@ -1758,7 +1741,7 @@ li {
 }
 
 .single-team-item:hover .team-text {
-	background: #ff6d34 none repeat scroll 0 0
+	background: #ee1b22 none repeat scroll 0 0
 }
 
 .single-team-item:hover .team-text h3,
@@ -1834,7 +1817,7 @@ li {
 	font-size: 35px;
 	position: absolute;
 	left: 30px;
-	color: #ff6d34;
+	color: #ee1b22;
 	opacity: 0.3;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"
 }
@@ -1892,7 +1875,7 @@ li {
 
 .testimonial-slide .owl-dots .owl-dot.active span,
 .testimonial-slide .owl-dots .owl-dot:hover span {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 }
 
 
@@ -1920,7 +1903,7 @@ li {
 	width: 65px;
 	height: 65px;
 	top: -35px;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	color: #fff;
 	line-height: 23px;
 	text-align: center;
@@ -1954,7 +1937,7 @@ li {
 
 .blog-desc h3 a:hover,
 .blog-desc h3 {
-	color: #ff6d34
+	color: #ee1b22
 }
 
 
@@ -2009,7 +1992,7 @@ li {
 	content: "";
 	width: 67%;
 	height: 2px;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	left: 0;
 }
 
@@ -2041,13 +2024,13 @@ ul.quick_links li a i {
 }
 
 .working-hours p span.close_office {
-	color: #ff6d34;
+	color: #ee1b22;
 	text-transform: capitalize;
 	font-weight: 500;
 }
 
 ul.quick_links li a:hover {
-	color: #ff6d34;
+	color: #ee1b22;
 }
 
 .flicker li {
@@ -2103,7 +2086,7 @@ ul.quick_links li a:hover {
 	background: transparent;
 	right: 10px;
 	height: 100%;
-	color: #ff6d34;
+	color: #ee1b22;
 	cursor: pointer;
 }
 
@@ -2134,7 +2117,7 @@ ul.quick_links li a:hover {
 }
 
 .copyright-right p i {
-	color: #ff6d34;
+	color: #ee1b22;
 	margin: 0 2px
 }
 
@@ -2194,13 +2177,13 @@ ul.quick_links li a:hover {
 }
 
 .about-page-right-listing li i {
-	color: #ff6d34;
+	color: #ee1b22;
 	margin-right: 5px;
 }
 
 .about-page-left>.popup-youtube i {
-	background: #ff6d34 none repeat scroll 0 0;
-	border: 2px solid #ff6d34;
+	background: #ee1b22 none repeat scroll 0 0;
+	border: 2px solid #ee1b22;
 	border-radius: 100px;
 	color: #fff;
 	display: inline-block;
@@ -2235,7 +2218,7 @@ ul.quick_links li a:hover {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #ff6d34;
+	color: #ee1b22;
 }
 
 .about-page-right h2 {
@@ -2262,7 +2245,7 @@ ul.quick_links li a:hover {
 	position: absolute;
 	height: 4px;
 	width: 10%;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	content: "";
 	left: 0;
 	bottom: -20px;
@@ -2294,7 +2277,7 @@ ul.quick_links li a:hover {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #ff6d34;
+	color: #ee1b22;
 }
 
 .choose-left h2 {
@@ -2323,12 +2306,12 @@ ul.quick_links li a:hover {
 }
 
 .choose-right li i {
-	color: #ff6d34;
+	color: #ee1b22;
 	margin-right: 5px
 }
 
 .felona-toll-area {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	position: relative;
 	z-index: 1;
 }
@@ -2377,7 +2360,7 @@ ul.quick_links li a:hover {
 	font-weight: 600;
 	font-size: 14px;
 	border: 2px solid #fff;
-	color: #ff6d34;
+	color: #ee1b22;
 	background: #fff none repeat scroll 0 0;
 	padding: 12px 35px;
 	letter-spacing: 1px;
@@ -2458,7 +2441,7 @@ ul.quick_links li a:hover {
 }
 
 .top-company-list .company-list-details>h3>a:hover {
-	color: #ff6d34;
+	color: #ee1b22;
 }
 
 .company-list-details p {
@@ -2475,7 +2458,7 @@ ul.quick_links li a:hover {
 }
 
 .open-icon i {
-	color: #ff6d34;
+	color: #ee1b22;
 }
 
 .varify i {
@@ -2528,7 +2511,7 @@ ul.quick_links li a:hover {
 .quick-contact form p button {
 	width: 100%;
 	padding: 15px 20px;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	border: medium none;
 	color: #fff;
 	cursor: pointer;
@@ -2560,13 +2543,13 @@ ul.quick_links li a:hover {
 }
 
 .attachment-action a:hover {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	color: #fff
 }
 
 .attachment-action a i {
 	margin-right: 5px;
-	color: #ff6d34;
+	color: #ee1b22;
 	-webkit-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s
 }
@@ -2628,7 +2611,7 @@ ul.quick_links li a:hover {
 	font-weight: 600;
 	font-size: 14px;
 	border: 2px solid #fff;
-	color: #ff6d34;
+	color: #ee1b22;
 	background: #fff none repeat scroll 0 0;
 	padding: 12px 35px;
 	letter-spacing: 1px;
@@ -2698,7 +2681,7 @@ ul.quick_links li a:hover {
 	cursor: pointer;
 	-webkit-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
-	color: #ff6d34
+	color: #ee1b22
 }
 
 .single_faq_accordian {
@@ -2750,7 +2733,7 @@ ul.quick_links li a:hover {
 
 .faq_accordian_header>a span {
 	margin-right: 5px;
-	color: #ff6d34
+	color: #ee1b22
 }
 
 
@@ -2824,7 +2807,7 @@ ul.quick_links li a:hover {
 
 .quick-contact ul li a:hover,
 .quick-contact ul li.active a {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	color: #fff;
 	border-left: 4px solid #072948;
 }
@@ -2845,7 +2828,7 @@ ul.quick_links li a:hover {
 	position: absolute;
 	height: 4px;
 	width: 30%;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	content: "";
 	left: 0;
 	bottom: -20px;
@@ -2921,7 +2904,7 @@ ul.quick_links li a:hover {
 }
 
 .about-service-right ul li i {
-	color: #ff6d34;
+	color: #ee1b22;
 	font-size: 18px;
 	margin-right: 5px;
 }
@@ -2967,7 +2950,7 @@ ul.quick_links li a:hover {
 .service-get-form form p button {
 	width: auto;
 	padding: 15px 20px;
-	background: #ff6d34;
+	background: #ee1b22;
 	border: medium none;
 	color: #fff;
 	cursor: pointer;
@@ -3033,7 +3016,7 @@ ul.quick_links li a:hover {
 }
 
 .project-details-left ul li i {
-	color: #ff6d34;
+	color: #ee1b22;
 	font-size: 18px;
 	margin-right: 5px;
 }
@@ -3056,7 +3039,7 @@ ul.quick_links li a:hover {
 	position: absolute;
 	left: 0;
 	top: 0;
-	color: #ff6d34;
+	color: #ee1b22;
 	font-size: 35px;
 }
 
@@ -3116,7 +3099,7 @@ ul.quick_links li a:hover {
 	position: absolute;
 	height: 4px;
 	width: 15%;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	content: "";
 	left: 0;
 	bottom: -15px;
@@ -3149,7 +3132,7 @@ ul.quick_links li a:hover {
 	border-radius: 0 5px 5px 0px;
 	cursor: pointer;
 	border: medium none;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	color: #fff;
 }
 
@@ -3174,7 +3157,7 @@ ul.quick_links li a:hover {
 
 .blog-catagory a:hover,
 .recent-text h4 a:hover {
-	color: #ff6d34
+	color: #ee1b22
 }
 
 .blog-catagory a span {
@@ -3208,7 +3191,7 @@ ul.quick_links li a:hover {
 }
 
 .Tags-catagory a:hover {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	color: #fff
 }
 
@@ -3246,8 +3229,8 @@ ul.quick_links li a:hover {
 }
 
 .blog-page-left .about-action a {
-	color: #ff6d34;
-	border-left: 1px solid #ff6d34;
+	color: #ee1b22;
+	border-left: 1px solid #ee1b22;
 }
 
 .blog-page-left .about-action a:hover {
@@ -3284,7 +3267,7 @@ ul.quick_links li a:hover {
 
 .post-author i,
 .post-comment i {
-	color: #ff6d34;
+	color: #ee1b22;
 	margin-right: 2px;
 }
 
@@ -3304,7 +3287,7 @@ ul.quick_links li a:hover {
 	margin-top: 34px;
 	margin-bottom: 34px;
 	border-left: 5px solid #fbc5af;
-	background-color: #ff6d34;
+	background-color: #ee1b22;
 	position: relative;
 	padding: 30px 35px 38px 35px;
 }
@@ -3415,7 +3398,7 @@ ul.quick_links li a:hover {
 	position: absolute;
 	height: 4px;
 	width: 8%;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	content: "";
 	left: 0;
 	bottom: -15px;
@@ -3495,7 +3478,7 @@ ul.quick_links li a:hover {
 
 .comment-text-inner a:hover,
 .comment-text-inner a:hover i {
-	color: #ff6d34
+	color: #ee1b22
 }
 
 .felona-leave-comment form input {
@@ -3529,7 +3512,7 @@ ul.quick_links li a:hover {
 .felona-leave-comment form button {
 	width: auto;
 	padding: 15px 20px;
-	background: #ff6d34;
+	background: #ee1b22;
 	border: medium none;
 	color: #fff;
 	cursor: pointer;
@@ -3581,7 +3564,7 @@ ul.quick_links li a:hover {
 	position: absolute;
 	height: 4px;
 	width: 18%;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	content: "";
 	left: 0;
 	bottom: -15px;
@@ -3623,7 +3606,7 @@ ul.quick_links li a:hover {
 .contact-form form p button {
 	width: auto;
 	padding: 15px 20px;
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	border: medium none;
 	color: #fff;
 	cursor: pointer;
@@ -3690,6 +3673,6 @@ ul.quick_links li a:hover {
 }
 
 .contact-social li a:hover {
-	background: #ff6d34 none repeat scroll 0 0;
+	background: #ee1b22 none repeat scroll 0 0;
 	color: #fff
 }

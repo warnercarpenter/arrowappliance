@@ -36,50 +36,6 @@ JS INDEX
 		=================================================================	
 		*/
 
-		$(".felona-slide").owlCarousel({
-			animateOut: 'fadeOutLeft',
-			animateIn: 'fadeIn',
-			items: 2,
-			nav: true,
-			dots: false,
-			autoplayTimeout: 7000,
-			autoplaySpeed: 2000,
-			autoplay: true,
-			loop: true,
-			navText: ["<i class='fa fa-long-arrow-left'><i>", "<i class='fa fa-long-arrow-right'><i>"],
-			mouseDrag: true,
-			touchDrag: true,
-			responsive: {
-				0: {
-					items: 1
-				},
-				480: {
-					items: 1
-				},
-				600: {
-					items: 1
-				},
-				750: {
-					items: 1
-				},
-				1000: {
-					items: 1
-				},
-				1200: {
-					items: 1
-				}
-			}
-		});
-
-		$(".felona-slide").on("translate.owl.carousel", function () {
-			$(".felona-main-slide h2, .felona-main-slide p").removeClass("animated fadeInUp").css("opacity", "0");
-			$(".felona-main-slide .felona-btn").removeClass("animated fadeInDown").css("opacity", "0");
-		});
-		$(".felona-slide").on("translated.owl.carousel", function () {
-			$(".felona-main-slide h2, .felona-main-slide p").addClass("animated fadeInUp").css("opacity", "1");
-			$(".felona-main-slide .felona-btn").addClass("animated fadeInDown").css("opacity", "1");
-		});
-
 
 		/* 
 		=================================================================
