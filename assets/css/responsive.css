@@ -47,11 +47,6 @@
 	.header-logo-area {
 		padding: 15px 0
 	}
-	.site-logo img {
-		width: 25%;
-		position: relative;
-		z-index: 9999
-	}
 	.felona-main-slide {
 		height: 460px
 	}
@@ -326,9 +321,6 @@
 	}
 	.header-logo-area {
 		padding: 15px 0
-	}
-	.site-logo img {
-		width: 45%;
 	}
 	.site-logo {
 		margin: 10px 0
@@ -670,9 +662,6 @@
 	}
 	.header-logo-area {
 		padding: 15px 0
-	}
-	.site-logo img {
-		width: 40%;
 	}
 	.site-logo {
 		margin: 10px 0

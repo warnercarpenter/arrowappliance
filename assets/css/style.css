@@ -464,11 +464,30 @@ li {
 ==================================================*/
 
 .felona-breadcromb-area {
-	background: url(../img/breadcromb.jpg) no-repeat scroll 0 0/cover;
 	position: relative;
 	z-index: 1;
 	padding-top: 100px;
 	margin-top: -30px;
+}
+
+.washer-dryer-repair-header {
+	background: url(../img/washer-dryer-repair-header.jpg) no-repeat scroll 0 0/cover;
+}
+
+.refrigerator-repair-header {
+	background: url(../img/refrigerator-repair-header.jpg) no-repeat scroll 0 0/cover;
+}
+
+.oven-repair-header {
+	background: url(../img/oven-repair-header.jpg) no-repeat scroll 0 0/cover;
+}
+
+.dishwasher-repair-header {
+	background: url(../img/dishwasher-repair-header.jpg) no-repeat scroll 0 0/cover;
+}
+
+.contact-header {
+	background: url(../img/contact-header.jpg) no-repeat scroll 0 0/cover;
 }
 
 .felona-breadcromb-area:after {
@@ -623,6 +642,77 @@ li {
 
 .site-logo {
 	margin: 5px 0;
+}
+
+.cta-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 48px;
+}
+
+.cta-widget {
+	display: flex;
+}
+
+.cta-widget-icon {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #f9f9f9 none repeat scroll 0 0;
+	border-radius: 50%;
+	margin-right: 24px;
+	font-size: 24px;
+	color: #ee1b22;
+	position: relative;
+}
+
+.cta-widget-icon:after {
+	position: absolute;
+	content: '';
+	left: 50%;
+	top: -3px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 30px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.cta-widget-text {
+	overflow: hidden;
+	text-align: left;
+}
+
+.cta-widget-spacer {
+	width: 2px;
+	margin: 0px 42px;
+	background: #eee;
+	height: 80px;
+}
+
+@media (max-width: 992px) {
+	.cta-box {
+		flex-direction: column;
+	}
+
+	.cta-widget {
+		width: 250px;
+	}
+
+	.cta-widget-spacer {
+		width: 100%;
+		margin: 12px 0px;
+		height: 2px;
+		background: white;
+	}
+	.site-logo img {
+		height: 42px !important;
+		width: auto;
+	}
 }
 
 .header-widget-box {
@@ -1326,57 +1416,30 @@ li {
 
 .felona-request-area {
 	position: relative;
-	z-index: 1;
-	background: #f8f9fa none repeat scroll 0 0
-}
-
-.felona-request-area img {
-	position: absolute;
-	right: 110px;
-	bottom: 0;
-}
-
-.felona-request-area:after {
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 60%;
 	background: rgba(12, 12, 12, 0.87) none repeat scroll 0 0;
-	z-index: -1
-}
-
-.felona-request-area:before {
-	position: absolute;
-	content: "";
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 60%;
-	background: url(../img/request-area_bg.jpg) no-repeat scroll 0 0/cover;
-	z-index: -1
+	padding: 50px 0px;
 }
 
 .request-inner {
 	padding: 50px 0;
-	width: 55%;
+	background: white;
 }
 
-.request-left {
+.request-inner {
 	padding: 45px;
 	background: #fff;
+	text-align: center
 }
 
-.request-left>p {
+.request-inner>p {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
-	color: #ee1b22;
 	font-weight: 500;
+	color: #ee1b22;
 }
 
-.request-left h3 {
+.request-inner h3 {
 	font-family: 'Ubuntu', sans-serif;
 	color: #111;
 	font-weight: 500;
@@ -1769,7 +1832,7 @@ li {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background: url(../img/about-section.png) no-repeat scroll 0 -0;
+	background: url(../img/testimonial-section.jpg) no-repeat scroll 0 -0;
 	z-index: -1;
 }
 
@@ -1793,7 +1856,7 @@ li {
 
 .single-testimonial {
 	background: #fff;
-	padding: 20px;
+	padding: 60px 20px;
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .11);
 	margin: 5px;
 	position: relative;
@@ -1825,7 +1888,9 @@ li {
 .testimonial-text {
 	width: 65%;
 	text-align: left;
-	padding-top: 50px
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .testimonial-text h4 {
@@ -2573,7 +2638,7 @@ ul.quick_links li a:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(252, 105, 47, 0.83) none repeat scroll 0 0;
+	background: rgba(238, 27, 34, 0.83) none repeat scroll 0 0;
 	z-index: -1;
 }
 
@@ -2600,7 +2665,7 @@ ul.quick_links li a:hover {
 }
 
 .page-banner h4 i {
-	margin-right: 5px
+	margin-right: 8px
 }
 
 .page-banner a.felona-btn {
@@ -2875,6 +2940,15 @@ ul.quick_links li a:hover {
 	text-transform: capitalize;
 	margin-bottom: 15px;
 	font-size: 30px;
+}
+
+.single-service-text ul {
+	margin: 12px 0px;
+}
+
+.single-service-text li {
+	list-style-type: disc;
+	list-style-position: inside;
 }
 
 .about-service-left {
@@ -3637,7 +3711,6 @@ ul.quick_links li a:hover {
 .single-contact-info h4 {
 	font-size: 15px;
 	color: #111;
-	text-transform: capitalize;
 	line-height: normal;
 	letter-spacing: 1px;
 	font-weight: 600;
