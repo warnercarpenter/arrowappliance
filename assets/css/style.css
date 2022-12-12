@@ -207,6 +207,69 @@ li {
 	list-style-type: none;
 }
 
+#google-review-cta {
+	position: fixed;
+	display: block;
+	background: black;
+	color: white;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 8px;
+	z-index: 999;
+}
+
+#google-review-cta:hover {
+	text-decoration: underline;
+}
+
+#locations-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/nashville-skyline.jpg) no-repeat scroll 0 0/cover;
+	opacity: .2;
+}
+
+#locations-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	padding: 18px;
+	max-width: 1000px;
+	font-size: large;
+}
+
+.location-bullet {
+	width: 100%;
+	margin-bottom: 6px;
+	color: black;
+	text-align: center;
+	font-weight: 600;
+}
+
+@media (min-width: 520px) {
+	.location-bullet {
+		width: 50%;
+		text-align: left;
+	}
+}
+
+@media (min-width: 800px) {
+	.location-bullet {
+		width: 33%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.location-bullet {
+		width: 25%;
+	}
+}
+
 .felona-btn {
 	display: inline-block;
 	text-align: center;
@@ -303,6 +366,22 @@ li {
 
 .section_b_80 {
 	padding-bottom: 80px
+}
+
+.arrow-phone {
+	color: inherit;
+}
+
+.arrow-phone:hover {
+	text-decoration: underline;
+}
+
+.arrow-email {
+	color: inherit;
+}
+
+.arrow-email:hover {
+	text-decoration: underline;
 }
 
 
@@ -709,6 +788,7 @@ li {
 		height: 2px;
 		background: white;
 	}
+
 	.site-logo img {
 		height: 42px !important;
 		width: auto;
